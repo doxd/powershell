@@ -1,0 +1,12 @@
+{
+  "source_directory" : "~/powershell",
+  "target_directory" : "/tmp/backup",
+  "files":[
+    "Get-CleanHosts.ps1",
+    "Get-WikiEmphasis.ps1",
+    {"type":"recurse", "path":"Remote-Shells"},
+    {"type":"pattern", "path":"h*"},
+    "Update-Timestamp.ps1",
+    "../hello.rs"
+  ]
+}
